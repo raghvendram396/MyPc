@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Todo app</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .topdiv
+    {background-image: url("bg-desktop-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="topdiv">
+  <p class="para" style="margin-top: 50px;">TODO</p>
+  <img src="images/icon-sun.svg" alt="" style="margin-left: 300px;">
+  <div class="container" style="padding: 10px;">
+    <input type="checkbox" class="checkbox-round">
+    Currently Typing...
+  </div>
+  <div class="container-bottom" style="padding-top: 15px; padding-bottom: 15px;">
+    <span class="hh">
+      <input type="checkbox" class="checkbox-round">
+    Complete online Javascript Course<hr></span>
+    <span class="hh">
+    <input type="checkbox" class="checkbox-round">
+    Jog 3x in the park<hr></span>
+    <span class="hh">
+    <input type="checkbox" class="checkbox-round">
+    10 minute meditation<hr></span>
+
+     <span class="hh">
+     <input type="checkbox" class="checkbox-round">
+    Read for 1 hour  <hr></span>
+
+      <span class="hh">
+      <input type="checkbox" class="checkbox-round">
+       Pickup Groceries<hr></span>
+
+       <span class="hh">
+       <input type="checkbox" class="checkbox-round">
+        Complete todo App on frontendmentor
+        <hr>
+      </span>
+
+        <span style="font-size: 15px;" class="ite">6 items left</span>
+        <span style="font-size: 15px;margin-left: 110px;">All Active</span>
+        <span style="font-size: 15px;">&nbsp; &nbsp; All Completed  &nbsp;  &nbsp; &nbsp;</span>
+        <span style="font-size: 15px;"> &nbsp; &nbsp;Clear Completed</span>
+  </div>
+  </div>
+  <div class="bottom">
+    <div class="attribution">
+    <a href="#" style="font-size: 1.1rem; color: white; text-decoration: none;">Created By Raghvendra Mishra</a>.
+    </div>
+  </div>
+
+  <!-- Add dynamic number -->
+  <!-- items left -->
+<!--
+  All
+  Active
+  Completed
+
+  Clear Completed
+
+  Drag and drop to reorder list -->
+<script src="ind.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>

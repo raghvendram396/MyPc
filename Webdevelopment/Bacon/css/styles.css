@@ -1,0 +1,14 @@
+body{
+  background-color: #ffd5cd;
+}
+h1
+{font-size: 50px;}
+img:hover
+{background-color: gold;
+}
+.bacon
+{ background-color: green;
+}
+.brocolli
+{background-color: red;
+}
